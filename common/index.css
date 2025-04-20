@@ -1,0 +1,45 @@
+.head {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 1.05rem;
+    position: relative;
+}
+
+.head h1 {
+    flex: 1;
+    color: #fff;
+    text-align: center;
+    font-size: .4rem;
+    line-height: .8rem;
+    letter-spacing: -1px;
+}
+
+.head h1 img {
+    width: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.time {
+    /* position: absolute; */
+    right: .15rem;
+    top: 0;
+    line-height: .75rem;
+    color: rgba(255, 255, 255, .7);
+    font-size: .3rem;
+    padding-right: .1rem;
+    font-family: electronicFont;
+}
+
+.tab-bar .nav-link {
+    padding: .2rem;
+    font-size: .2rem;
+    color: #fff;
+}
+
+.tab-bar .active {
+    color: #399bff;
+}
+
